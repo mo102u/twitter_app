@@ -10,7 +10,7 @@ while ($row = fgetcsv($fp)) {
 fclose($fp);
 ?>
 
-<!DOCTYPE>
+<!DOCTYPE html>
 <html lang="ja">
 <head>
     <meta charset="utf-8">
