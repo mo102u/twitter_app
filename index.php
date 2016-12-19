@@ -19,7 +19,7 @@ fclose($fp);
 <body>
     <section>
         <h2>新規投稿</h2>
-        <form action="" method="post">
+        <form action="" method="post" name="myform" onSubmit="return validate()">
             名前 : <input type="text" name="name"><br>
             投稿内容 : <input type="text" name="content"><br>
             <input type="submit" value="投稿">
@@ -37,5 +37,6 @@ fclose($fp);
             <p>投稿はまだありません</p>
         <?php endif; ?>
     </section>
+<script src="js/validate.js"></script>
 </body>
 </html>
